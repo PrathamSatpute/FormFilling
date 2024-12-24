@@ -133,5 +133,5 @@ class FormFiller:
 # Example usage
 if __name__ == "__main__":
     form_filler = FormFiller()
-    form_url = "https://forms.gle/WT68aV5UnPajeoSc8"  # Replace with your form URL
+    form_url = input("Please enter the form URL: ")  # Take user input for the form URL
     form_filler.fill_form(form_url)  # Optionally pass a different CAPTCHA code if needed
